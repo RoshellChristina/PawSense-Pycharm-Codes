@@ -14,18 +14,7 @@ source .venv/bin/activate      # Linux/Mac
 .venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 
-Download the trained models and necessary artifacts from Google Drive and place them in the following structure:
-
-project-root/
-│
-├─ dog_emotion_classifier.h5
-├─ class_indices.json
-├─ disease_prediction/
-│   ├─ final_model.h5
-│   ├─ preprocessor.pkl
-│   ├─ label_encoder.pkl
-│   └─ symptoms.json
-├─ pipeline.pkl
+Download the trained models and necessary artifacts from Google Drive and place them in the appropriate places
 
 Ensure the folder names match exactly for the Flask apps to locate the files correctly.
 
@@ -35,7 +24,7 @@ python predict_app.py
 
 The API will run on http://0.0.0.0:5000 with the following endpoints:
 POST /predict — Dog emotion classification
-POST /predict_disease — Disease prediction
+POST /predict_disease — Disease detection
 POST /predict_score — Wellness score prediction
 
 To run the Text Embedding Service, execute:
