@@ -12,7 +12,7 @@ It is recommended to use a virtual environment:
 python -m venv .venv
 pip install -r requirements.txt
 
-Download the trained models and necessary artifacts from Google Drive and place them in the appropriate places
+Download the trained models and necessary artifacts from Google Drive and place them in the appropriate places: https://drive.google.com/drive/folders/19SSu2Nt0oaIeqhAsgiYInIS_6mdSbbLn?usp=sharing
 
 Ensure the folder names match exactly for the Flask apps to locate the files correctly.
 
