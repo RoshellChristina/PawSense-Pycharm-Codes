@@ -10,8 +10,6 @@ cd <repo-folder>
 It is recommended to use a virtual environment:
 
 python -m venv .venv
-source .venv/bin/activate      # Linux/Mac
-.venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 
 Download the trained models and necessary artifacts from Google Drive and place them in the appropriate places
